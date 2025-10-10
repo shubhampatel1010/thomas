@@ -109,15 +109,18 @@ export default function CompanySetupModal({ isOpen, userId, onComplete, onShowTo
           <label htmlFor="location" className="block text-sm font-medium text-gray-700 mb-2">
             Location / Country <span className="text-red-500">*</span>
           </label>
-          <input
-            type="text"
-            id="location"
+          
+          <select
+            id="country"
             value={formData.location}
             onChange={(e) => setFormData({ ...formData, location: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
-            placeholder="e.g., New York, USA"
             required
-          />
+          >
+            <option value="">Select Country</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Philippines">Philippines</option>
+          </select>
         </div>
 
         <div>

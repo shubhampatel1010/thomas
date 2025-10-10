@@ -116,14 +116,8 @@ export default function CandidateProfileSetup({ userId, email, onComplete, onSho
                   required
                 >
                   <option value="">Select Country</option>
-                  <option value="United States">United States</option>
-                  <option value="United Kingdom">United Kingdom</option>
-                  <option value="Canada">Canada</option>
-                  <option value="Australia">Australia</option>
-                  <option value="Germany">Germany</option>
-                  <option value="France">France</option>
-                  <option value="Spain">Spain</option>
-                  <option value="Italy">Italy</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Philippines">Philippines</option>
                 </select>
               </div>
             </div>
