@@ -14,7 +14,7 @@ export default function EmployerDashboard({ userId, onNavigate, onShowToast }: E
 
   useEffect(() => {
     const allJobs = storage.getJobs();
-    const myJobs = allJobs.filter(job => job.employerId === userId && job.category === 'Domestic Workers');
+    const myJobs = allJobs.filter(job => job.employerId === userId);
     setJobs(myJobs);
   }, [userId]);
 
