@@ -1,1 +1,12 @@
-<h1>Hello GitHub Page</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://growwstacks.com/Workflows/</loc>
+  </url>
+  <url>
+    <loc>https://growwstacks.com/Workflows/create-salesforce-accounts-from-google-sheets/</loc>
+  </url>
+  <url>
+    <loc>https://growwstacks.com/Workflows/untitled-workflow/</loc>
+  </url>
+</urlset>
